@@ -111,4 +111,12 @@ font-weight: bold;
 
         margin: 10px 0  ;
     }
+    .find{
+        display: flex;
+        padding: 5px;
+        font-size: 30px;
+        justify-content: center;
+        margin: auto;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
     

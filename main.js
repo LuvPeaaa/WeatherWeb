@@ -42,10 +42,16 @@ async function changWeatherUI(capitalSearch){
         
     }
 }
+
 search.addEventListener('keypress',function(e){
     if(e.code === 'Enter'){
         let capitalSearch = search.value.trim()
         changWeatherUI(capitalSearch)
     }
+})  
+var find = document.getElementById('find')
+find.addEventListener('click', function(){
+    let capitalSearch = search.value.trim()
+    changWeatherUI(capitalSearch)
 })
 changWeatherUI('Ho Chi Minh')
