@@ -13,7 +13,7 @@
     
     
     
-    background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/WeatherForecast/pic.jpg") no-repeat center/cover ;
+    background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/pic.jpg") no-repeat center/cover ;
     }
     #weather{
         width: 400px;
@@ -23,18 +23,18 @@
     }
     .rainny {
         
-        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/WeatherForecast/rain.jpg") no-repeat center/cover ;
+        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/rain.jpg") no-repeat center/cover ;
         transition: 0.2s;
         
 
     }
     .sunny {
-        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/WeatherForecast/sun.jpg") no-repeat center/cover ;
+        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/sun.jpg") no-repeat center/cover ;
         transition: 0.2s;
 
     }
     .cloudy {
-        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/WeatherForecast/cloud.jpg") no-repeat center/cover ;
+        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/cloud.jpg") no-repeat center/cover ;
         transition: 0.2s;
 
     }
